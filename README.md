@@ -1,6 +1,6 @@
 # Matlab script for sneeze particles
 ## Usage:   q = read_balance_diam(pathname, fignum);
-## Example: q = read_balance_diam('./data/', 0);
+## Example: `q = read_balance_diam('./data/', 0);`
 ## Input arguments:
 ### *pathname*: path to data of the form fbalance?????.3D
 ### *fignum*: figure index where pdf for each particle force will be displayed. Set to zero to prevent plotting.
