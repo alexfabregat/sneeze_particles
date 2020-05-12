@@ -12,17 +12,19 @@
 
 ### *q*: Matlab struct with:
 
-1. q.t[nt]            : Time
-2. q.xp[np,nt,ndim]   : position
-3. q.up[np,nt,ndim+2] : velocity
-4. q.ap[np,nt,ndim]   : acceleration
-5. q.dp[np,nt,ndim]   : drag
-6. q.wp[np,nt]        : weight
-7. q.tp[np,nt,ndim]   : thermophoresis
-8. q.lp[np,nt,ndim]   : lift
-9. q.bp[np,nt,ndim]   : brownian
-10. q.sp[np,nt]       : diameter
-11. q.np[np,nt]       : normalized diameter
+Struct element | Size | Meaning 
+---|---|---
+q.t |(nt)|           Time
+q.xp|(np,nt,ndim)|   Position
+q.up|(np,nt,ndim+2)| Velocity
+q.ap|(np,nt,ndim)|   Acceleration
+q.dp|(np,nt,ndim)|   Drag
+q.wp|(np,nt)|        Weight
+q.tp|(np,nt,ndim)|   Thermophoresis
+q.lp|(np,nt,ndim)|   Lift
+q.bp|(np,nt,ndim)|   Brownian
+q.sp|(np,nt)|        Diameter
+q.np|(np,nt)|        Normalized diameter
 
 # Comments:
 If used under Windows, reading part must be modified.
