@@ -27,4 +27,4 @@ q.sp|(np,nt)|        Diameter
 q.np|(np,nt)|        Normalized diameter
 
 # Comments:
-If used under Windows, reading part must be modified.
+Note that a Windows version of the code is available.
